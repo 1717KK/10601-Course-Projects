@@ -3,16 +3,16 @@
 
 HW1: Background
 
-HW2: Decision Trees
+HW2: Decision Trees(code)
 
 HW3: KNN, Perceptron, Linear Regression, Desision Trees
 
-HW4: Logistic Regression
+HW4: Logistic Regression(code)
 
-HW5: Neural Networks
+HW5: Neural Networks(code)
 
-HW6: Reinforcement Learning
+HW6: Reinforcement Learning(code)
 
-HW7: MLE/MAP, Naive Bayes, Hidden Markov Models
+HW7: MLE/MAP, Naive Bayes, Hidden Markov Models(code)
 
 HW8: PCA, SVMs, Graphical Models, Baum Welch, Ensemble Methods/Recommender Systems
