@@ -1,5 +1,4 @@
-#import os
-#os.chdir("C:\\Yiqi\\CMU_in_the_work\\10601\\F19_10601_HW6\\handout\\python")
+
 
 from environment import MountainCar
 import sys
@@ -114,16 +113,7 @@ def main(args):
     epsilon = float(args[6])
     gamma = float(args[7])
     learning_rate = float(args[8])
-    '''
-    mode = "raw"
-    episodes = 4
-    max_iterations = 200
-    epsilon = 0.05
-    gamma = 0.99
-    learning_rate = 0.01
-    weight_out = "weight_out"
-    returns_out = "return_out"
-    '''
+    
     my_car = MountainCar(mode)
     my_agent = Agent(episodes, max_iterations, epsilon, gamma, learning_rate, my_car)
     my_agent.train()
@@ -131,9 +121,6 @@ def main(args):
     reward_list = my_agent.reward_list
     bias = my_agent.bias
     weights = my_agent.weights
-    print(reward_list)
-    print(bias)
-    print(weights)
     
     write_out_return(returns_out, reward_list)
     write_out_weights(weight_out, weights, bias)
